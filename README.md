@@ -40,7 +40,7 @@
 
 <p>
 Home Page:
-<img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/1.1.png" alt="">
+<img src="https://github.com/githubAloksingh/TripGuide/blob/main/public/asset/Home.png" alt="">
 
 Google OAuth Sign in:
   <img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/2.png" alt="">

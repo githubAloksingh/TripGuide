@@ -43,7 +43,7 @@ Home Page:
 <img src="https://github.com/githubAloksingh/TripGuide/blob/main/public/asset/Home.png" alt="">
 
 Google OAuth Sign in:
-  <img src="https://github.com/githubAloksingh/TripGuide/blob/main/public/asset/2.png" alt="">
+  <img src="https://github.com/githubAloksingh/TripGuide/blob/main/public/asset/Screenshot%202025-07-25%20145909.png" alt="">
   
 Create Trip Page:
 <img src="https://github.com/githubAloksingh/TripGuide/blob/main/public/asset/4.4.png" alt="">

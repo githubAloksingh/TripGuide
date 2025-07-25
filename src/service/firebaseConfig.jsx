@@ -9,7 +9,7 @@ import {getFirestore} from 'firebase/firestore'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBh9iDKoIvI3-k5W5kxliEe8F6DNcIlo8Y",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "prep-master-e1138.firebaseapp.com",
   projectId: "prep-master-e1138",
   storageBucket: "prep-master-e1138.firebasestorage.app",

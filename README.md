@@ -2,7 +2,7 @@
 <h1 align="center" style="font-weight: bold;">Full-Stack Trip Planner Web App</h1>
 
 <p align="center">
-<a href="#tech">Technologies |</a>
+<a href="#tech">Technologies |</a> 
 <a href="#features">Features |</a>
 <a href="#layout">Layout |</a>
 <a href="#pre">Prerequisites</a>

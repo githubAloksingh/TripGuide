@@ -98,23 +98,24 @@ function Header() {
     </div>
 
     {/* Sign-In Dialog */}
-    <Dialog open={openDialog}>
-      <DialogContent className="max-w-sm rounded-xl shadow-xl border border-gray-200">
-        <DialogHeader>
-          <DialogDescription className="text-center space-y-4">
-            <img src="/logo.svg" alt="logo" className="mx-auto w-16 mb-2" />
-            <h2 className="font-bold text-xl text-gray-800">Sign In to Your Travel Dashboard</h2>
-            <p className="text-sm text-gray-500">Sign in using Google for a secure experience</p>
-            <Button
-              onClick={login}
-              className="w-full mt-4 flex gap-3 justify-center items-center border border-gray-300 shadow hover:shadow-md transition-all"
-            >
-              <FcGoogle className="h-6 w-6" /> Sign in With Google
-            </Button>
-          </DialogDescription>
-        </DialogHeader>
-      </DialogContent>
-    </Dialog>
+    <Dialog open={openDialog} onOpenChange={setOpenDialog}>
+  <DialogContent className="max-w-sm rounded-xl shadow-xl border border-gray-200">
+    <DialogHeader>
+      <DialogDescription className="text-center space-y-4">
+        <img src="/logo.svg" alt="logo" className="mx-auto w-16 mb-2" />
+        <h2 className="font-bold text-xl text-gray-800">Sign In to Your Travel Dashboard</h2>
+        <p className="text-sm text-gray-500">Sign in using Google for a secure experience</p>
+        <Button
+          onClick={login}
+          className="w-full mt-4 flex gap-3 justify-center items-center border border-gray-300 shadow hover:shadow-md transition-all"
+        >
+          <FcGoogle className="h-6 w-6" /> Sign in With Google
+        </Button>
+      </DialogDescription>
+    </DialogHeader>
+  </DialogContent>
+</Dialog>
+
   </div>
 )
 
